@@ -655,22 +655,22 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
       alwaysShow: true
     },
     children: [
-      {
-        path: 'department',
-        component: () => import('@/views/Authorization/Department/Department.vue'),
-        name: 'Department',
-        meta: {
-          title: t('router.department')
-        }
-      },
-      {
-        path: 'user',
-        component: () => import('@/views/Authorization/User/User.vue'),
-        name: 'User',
-        meta: {
-          title: t('router.user')
-        }
-      },
+      // {
+      //   path: 'department',
+      //   component: () => import('@/views/Authorization/Department/Department.vue'),
+      //   name: 'Department',
+      //   meta: {
+      //     title: t('router.department')
+      //   }
+      // },
+      // {
+      //   path: 'user',
+      //   component: () => import('@/views/Authorization/User/User.vue'),
+      //   name: 'User',
+      //   meta: {
+      //     title: t('router.user')
+      //   }
+      // },
       {
         path: 'menu',
         component: () => import('@/views/Authorization/Menu/Menu.vue'),
